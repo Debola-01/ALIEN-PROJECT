@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: -50px;
+    justify-content:left;
+    padding: 0 50px;
+    position: fixed;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo-div{
+    width: 100px;
+}
+
+.bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.bar ul li{
+    padding-right: 20px;
+    position: relative;
+}
+
+.bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.bar ul li a:hover{
+    color: blue;
+}
+
+.product_dropdown{
+    display: none;
+}
+.bar ul li:hover .product_dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(32, 29, 29);
+    margin: 20px 0 0 10px;
+    border-radius: 10px;
+}
+
+.bar ul li:hover .product_dropdown ul{
+    display: block;
+    margin: 20px;
+    
+}
+
+.bar ul li:hover .product_dropdown ul li{
+    margin: 10px;
+
+}
+
+
+.deal_dropdown{
+    display: none;
+}
+.bar ul li:hover .deal_dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(32, 29, 29);
+    margin: 20px 0 0 10px;
+    border-radius: 10px;
+}
+
+.bar ul li:hover .deal_dropdown ul{
+    display: block;
+    margin: 20px;
+    
+}
+
+.bar ul li:hover .deal_dropdown ul li{
+    margin: 10px;
+
+}
+
+
+.support_dropdown{
+    display: none;
+}
+.bar ul li:hover .support_dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(32, 29, 29);
+    margin: 20px 0 0 10px;
+    border-radius: 10px;
+}
+
+.bar ul li:hover .support_dropdown ul{
+    display: block;
+    margin: 20px;
+    
+}
+
+.bar ul li:hover .support_dropdown ul li{
+    margin: 10px;
+
+}
+
+.arena_dropdown{
+    display: none;
+}
+.bar ul li:hover .arena_dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(32, 29, 29);
+    margin: 20px 0 0 10px;
+    border-radius: 10px;
+}
+
+.bar ul li:hover .arena_dropdown ul{
+    display: block;
+    margin: 20px;
+}
+
+.bar ul li:hover .arena_dropdown ul li{
+    margin: 10px
+}
+
+.aurora-image{
+    width: 99%;
+    padding-top: 100px;
+}
+
+.complete-image{
+    width: 100%;
+}
+
+.varieties{
+    display: flex;
+}
