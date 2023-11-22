@@ -393,22 +393,7 @@ we{
     /* display: flex; */
 }
 
-/* .lemon{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.lemon img{
-    width: 100%;
-}
-.orange{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.orange img{
-    width: 100%;
-} */
+
 .btn3{
     height: 40px;
     width: 150px;
@@ -599,5 +584,14 @@ we{
     }
     .card{
         width: 35%;
+    }
+}
+
+@media  (min-width: 768px){
+    .card{
+        height: 600px;
+    }
+    .creed{
+        height: 400px;
     }
 }
